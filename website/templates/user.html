@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}{{username}}{% endblock %}
+{% block log %} <button type="button" class="btn login" onclick="window.location.href = '/logout';"> Logout</button>
+{% endblock %}
+
+
+{% block down %}
+
+<div class="tegline bg-dark ">
+    <div class="leftt" id="myScrollspy">
+      <p>Hello <br>{{username}}</p>
+    
+    </div>
+    <div class="rightt">
+      <img src="../static/img/sideimg.png" alt="HELLO">
+    </div>
+</div>
+
+<div class="templates">
+    <h2>Select your Template</h2>
+
+    <div class="card mb-3 template1" style="max-width: 75%;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../static/img/step3.png" class="img-fluid rounded-start" alt="template1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Basic Resume</h4>
+              <p class="card-text">A basic resume without a photo typically follows a standardized format and focuses on presenting your qualifications, skills, and experience to potential employers. </p>
+              <button type="button" class="btn login" onclick="window.location.href = '/template1';">Let's Build</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</div>
+
+
+<a href="/download">Download</a>
+
+
+
+{% endblock  %}

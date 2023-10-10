@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block down %}
+
+    <div class="tegline bg-dark ">
+      <div class="leftt" id="myScrollspy">
+        <p>Don't Worry We Build Your Resume</p>
+         <button type="button" class="btn" onclick="window.location.href = '#register';" >Let's Build</button>
+      </div>
+      <div class="rightt">
+        <img src="../static/img/sideimg.png" alt="HELLO">
+      </div>
+    </div>
+
+
+    <div class="container text-center steps">
+      <h2>Just four simple steps to download your resume:</h2>
+      <div class="row">
+        <div class="col">
+          <img src="../static/img/step1.png" alt="Register with us">
+          <p>Register With Us</p>
+          <p style="color: red;font-size: 1.5vw;">Step-1</p>
+        </div>
+        <div class="col">
+          <img style="margin-left: 10%;" src="../static/img/step2.png" alt="Register with us">
+          <p>Fill Your Details</p>
+          <p style="color: blue;font-size: 1.5vw;">Step-2</p>
+        </div>
+        <div class="col">
+          <img src="../static/img/step3.png" alt="Register with us">
+          <p>Select The Template</p>
+          <p style="color: orange; font-size: 1.5vw;">Step-3</p>
+        </div>
+        <div class="col">
+          <img src="../static/img/step4.png" alt="Register with us">
+          <p>download the Resume</p>
+          <p style="color:green;font-size: 1.5vw;">Step-4</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 bg-dark" style="width: 75%; margin-top: 10%; margin-left: 12.5%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../static/img/sunny.jpeg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" id="myScrollspy" >
+            <p class="card-text" style="color:gainsboro; font-size: larger;">A resume is a document that summarizes an individual's education, work experience, skills, and other relevant qualifications for a job application. It typically includes information about the applicant's employment history, education, professional accomplishments, and any relevant certifications or training. The purpose of a resume is to provide a concise and well-organized summary of an individual's qualifications, experience, and skills to potential employers, with the goal of securing an interview and ultimately a job offer. Resumes are typically customized for each job application and should be tailored to highlight the most relevant qualifications for the position.
+            <br><b>Sunny Bhardwaj</b>
+           </p>
+            <button onclick="window.location.href = '#register';" type="button" class="btn" style=" width: 50%;
+            background-color: rgb(220, 72, 56);
+            margin-left: 25%;
+            color:white ;
+            font-weight: bold;
+            margin-top: 5%;">Let's Build your Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="register" id="register">
+        <h2>Register with us</h2>
+        <form method="POST">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="email" id="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" id="password1" name="password1"  class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password (Conform)</label>
+            <input type="password"  id="password2" name="password2"  class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn login" name="register">Submit</button>
+        </form>
+    </div>
+
+    {% endblock  %}

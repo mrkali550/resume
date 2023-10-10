@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{username}}{% endblock %}
+{% block log %} <button type="button" class="btn login" onclick="window.location.href = '/logout';"> Logout</button>
+{% endblock %}
+
+{% block down %}
+<div class="tegline bg-dark ">
+    <div class="leftt" id="myScrollspy">
+      <p>Basic <br> Template</p>
+    </div>
+    <div class="rightt">
+      <img src="../static/img/step3.png" alt="HELLO">
+    </div>
+</div>
+
+<div class="register" id="register">
+  <h2>Enter Your Details</h2>
+  <form method="POST">
+    <div class="mb-3">
+      <label  class="form-label">Name</label>
+      <input type="text" name="name" class="form-control" id="name">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Email id</label>
+      <input type="email" name="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Address</label>
+      <input type="text" name="address" class="form-control" id="address">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Contact</label>
+      <input type="number" name="contect" class="form-control" id="contect">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Career Objective</label>
+      <input type="text" name="objective" class="form-control" id="objective">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Academic Qualification:</label>
+      <input type="text" name="qualification " class="form-control" id="qualification " placeholder="Enter your Qualification">
+      <input type="text" name="year " class="form-control" id="year" placeholder="Enter your Passing year">
+      <input type="text" name="board" class="form-control" id="board" placeholder="Enter your Bord/College/University">
+    </div>
+    
+    <button type="submit" class="btn login">Submit</button>
+  </form>
+</div>
+
+{% endblock  %}

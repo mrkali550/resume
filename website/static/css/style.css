@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.links{
+    padding-left: 35%;
+}
+.tegline{
+    display: flex;
+    padding-top:4% ;
+}
+.login{
+    background-color: rgb(220, 72, 56);
+    color:white ;
+    
+}
+.login:hover{
+    background-color: rgb(233, 195, 57);
+    
+}
+.tegline p{
+    color: white;
+}
+.leftt{
+    width: 49%;
+}
+.leftt p{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Pacifico', cursive;
+    font-size: 5vw;
+}
+.leftt button{
+    width: 50%;
+    background-color: rgb(220, 72, 56);
+    margin-left: 25%;
+    color:white ;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.leftt button:hover{
+    background-color: rgb(233, 195, 57);
+    
+}
+.rightt{
+    width: 40%;
+}
+.rightt img{
+    width: 110%;
+    padding-left: 25%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.steps{
+    margin-top: 5%;
+}
+.steps h2{
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.steps div{
+    margin-top: 3%;
+}
+.steps div img{
+    width: 15vw;
+}
+.steps div p{
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+.register{
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 25%;
+    padding-top: 10%;
+    padding: 5%;
+    background-color: rgb(233, 195, 57);
+}
+.register h2{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.upperf{
+    width: 70%;
+    margin-left: 15%;
+    border-bottom: 2px solid gray;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+.upperf img{
+    width:15%;
+    margin-left: 42.5%;
+}
+.flinks{
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.flinks li a{
+    color: white;
+    text-decoration: none;   
+}
+.flinks li {
+   width: 33.33333%;
+   margin-left: 5%;
+    margin-top: 10%;
+}
+.lowerf{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 3%;
+}
+.lowerf p{
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+    padding-bottom:2% ;
+}
+.social{
+    width: 70%;
+    margin-left: 39%;
+}
+.social a{
+    color: white;
+    font-size: 2vw;
+    padding-left: 5%;
+    
+}
+
+
+
+
+.templates{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.templates h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+.template1{
+    margin-top: 4%;
+    margin-left: 12.5%;
+    padding: 1%;
+    background-color: rgb(233, 195, 57);
+}
+
+
